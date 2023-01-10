@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    height: 64px;
+}
+
+
+
+/* header and navigation style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-sub-title {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* about style section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
